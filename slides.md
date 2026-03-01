@@ -76,6 +76,14 @@ background: https://picsum.photos/id/1/1920/1080?grayscale&blur=3
     <li class="font-serif font-light" style="list-style: none;">– Méthodes</li>
   </ul>
 
+<!--
+Où le stage ?
+
+Stage obtenu ?
+
+Méthodes ?
+-->
+
 ---
 transition: fade-out
 layout: cover
@@ -103,6 +111,13 @@ background: https://picsum.photos/id/1/1920/1080?grayscale&blur=2
   <p class="mt-2 text-xl font-medium">Son client</p>
 </div>
 
+<!--
+Nom, ce que c'est, Lieux
+
+Secteur écono et secteur activité 
+
+enttreprise privée, salariés, historique
+-->
 
 ---
 transition: fade-out
@@ -122,6 +137,21 @@ background: https://picsum.photos/id/1/1920/1080?grayscale&blur=4
 <div class="absolute top-48 left-8 text-left text-2xl">
   3) Avantages et Inconvénients
 </div>
+
+<!--
+Sa formation: 
+
+Son métier, 
+Son parcours, 
+Diplome pour y accéder, 
+Salaire débutant
+
+Équipes ?
+
+Outils ou Instruments ?
+
+Conditions travail ?
+-->
 
 ---
 transition: fade-out
@@ -143,6 +173,22 @@ background: https://picsum.photos/id/1/1920/1080?grayscale&blur=3
   <img src="https://coworking-colibri.fr/wp-content/uploads/2025/03/logo_colibri_couleur.svg" alt="Coworking Colibri" class="object-contain max-h-52" />
 </div>
 
+<!--
+Ma journée type
+
+Durée stage
+
+Modif idée initial
+
+Opinion vie pro
+
+Nouv métier ?
+
+Regret ?
+
+Plus apprécié ?
+-->
+
 ---
 transition: fade-out
 layout: cover
@@ -153,4 +199,12 @@ background: https://picsum.photos/id/1/1920/1080?grayscale&blur=2
   Conclusion
 </div>
 
----
+<!--
+vision monde du travail ?
+
+Projet perso ?
+
+Changement orientation sco ?
+
+Info constr orientation
+-->
