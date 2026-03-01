@@ -156,6 +156,109 @@ Conditions travail ?
 ---
 transition: fade-out
 layout: cover
+background: https://picsum.photos/id/1/1920/1080?grayscale&blur=4
+---
+
+<div class="absolute top-8 left-0 right-0 text-center text-4xl font-bold">
+  Le métier d'ingénieur logiciel
+</div>
+<div class="absolute top-20 left-0 right-0 text-center text-2xl">
+  <span class="text-white font-bold">Sa formation</span>
+</div>
+
+<div class="absolute top-32 left-8 right-8 grid grid-cols-3 gap-6">
+  <div v-click class="flex flex-col items-center gap-3">
+    <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&q=80" class="rounded-xl object-cover h-44 w-full" alt="Études" />
+    <span class="text-lg text-center font-medium">Bac Scientifique</span>
+  </div>
+  <div v-click class="flex flex-col items-center gap-3">
+    <div class="rounded-xl bg-white h-44 w-full flex items-center justify-center p-4">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Logo_Polytech_Angers.svg/500px-Logo_Polytech_Angers.svg.png" class="object-contain max-h-36" alt="Polytech Angers" />
+    </div>
+    <span class="text-lg text-center font-medium">École d'ingénieurs</span>
+  </div>
+  <div v-click class="flex flex-col items-center gap-3">
+    <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&q=80" class="rounded-xl object-cover h-44 w-full" alt="Diplôme" />
+    <span class="text-lg text-center font-medium">Diplôme Bac +5</span>
+  </div>
+</div>
+
+<!--
+Son métier, son parcours
+Diplôme pour y accéder
+Salaire débutant
+-->
+
+---
+transition: fade-out
+layout: cover
+background: https://picsum.photos/id/1/1920/1080?grayscale&blur=4
+---
+
+<div class="absolute top-8 left-0 right-0 text-center text-4xl font-bold">
+  Le métier d'ingénieur logiciel
+</div>
+<div class="absolute top-20 left-0 right-0 text-center text-2xl">
+  <span class="text-white font-bold">Sa journée de travail</span>
+</div>
+
+<div class="absolute top-32 left-8 right-8 grid grid-cols-3 gap-6">
+  <div v-click class="flex flex-col items-center gap-3">
+    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&q=80" class="rounded-xl object-cover h-44 w-full" alt="Développement" />
+    <span class="text-lg text-center font-medium">Développement</span>
+  </div>
+  <div v-click class="flex flex-col items-center gap-3">
+    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80" class="rounded-xl object-cover h-44 w-full" alt="Réunions" />
+    <span class="text-lg text-center font-medium">Réunions d'équipe</span>
+  </div>
+  <div v-click class="flex flex-col items-center gap-3">
+    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80" class="rounded-xl object-cover h-44 w-full" alt="Outils" />
+    <span class="text-lg text-center font-medium">Outils (VS Code, Git…)</span>
+  </div>
+</div>
+
+<!--
+Équipes ?
+Outils ou Instruments ?
+Conditions travail ?
+-->
+
+---
+transition: fade-out
+layout: cover
+background: https://picsum.photos/id/1/1920/1080?grayscale&blur=4
+---
+
+<div class="absolute top-8 left-0 right-0 text-center text-4xl font-bold">
+  Le métier d'ingénieur logiciel
+</div>
+<div class="absolute top-20 left-0 right-0 text-center text-2xl">
+  <span class="text-white font-bold">Sa journée de travail</span>
+</div>
+
+<div class="absolute top-32 left-8 right-8 grid grid-cols-3 gap-6">
+  <div v-click class="flex flex-col items-center gap-3">
+    <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&q=80" class="rounded-xl object-cover h-44 w-full" alt="Télétravail" />
+    <span class="text-lg text-center font-medium">✅ Télétravail possible</span>
+  </div>
+  <div v-click class="flex flex-col items-center gap-3">
+    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&q=80" class="rounded-xl object-cover h-44 w-full" alt="Salaire" />
+    <span class="text-lg text-center font-medium">✅ Bonne rémunération</span>
+  </div>
+  <div v-click class="flex flex-col items-center gap-3">
+    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&q=80" class="rounded-xl object-cover h-44 w-full" alt="Sédentaire" />
+    <span class="text-lg text-center font-medium">❌ Travail sédentaire</span>
+  </div>
+</div>
+
+<!--
+Avantages : télétravail, bonne rémunération, métier varié
+Inconvénients : travail sédentaire, longues heures parfois
+-->
+
+---
+transition: fade-out
+layout: cover
 background: https://picsum.photos/id/1/1920/1080?grayscale&blur=3
 ---
 
