@@ -3,14 +3,8 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://picsum.photos/id/1/1920/1080?grayscale&blur=1
-# some information about your slides (markdown enabled)
-title: Welcome to Slidev
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+background: "https://picsum.photos/id/1/1920/1080?grayscale&blur=1"
+title: Rapport de stage
 # apply UnoCSS classes to the current slide
 class: text-center
 # https://sli.dev/features/drawing
@@ -44,37 +38,43 @@ duration: 5min
 ---
 transition: fade-out
 layout: cover
-background: https://picsum.photos/id/1/1920/1080?grayscale&blur=4
+background: "https://picsum.photos/id/1/1920/1080?grayscale&blur=4"
 ---
 
-<div class="absolute top-6 left-0 right-0 text-center text-4xl font-bold">
+<div class="absolute top-8 left-0 right-0 text-center text-4xl font-bold">
   Sommaire
 </div>
-<ul class="absolute top-24 left-12 md:left-20 text-left text-xl list-disc list-inside space-y-2">
-  <li>Introduction</li>
-  <li>Présentation de l'entreprise</li>
-  <li>Le métier d'ingénieur logiciel</li>
-  <li>Mon expérience</li>
-  <li>Conclusion</li>
-</ul>
+
+<div class="absolute top-28 left-20">
+  <ul class="text-left text-xl list-disc list-inside space-y-2">
+    <li>Introduction</li>
+    <li>Présentation de l'entreprise</li>
+    <li>Le métier d'ingénieur logiciel</li>
+    <li>Mon expérience</li>
+    <li>Conclusion</li>
+  </ul>
+</div>
 
 ---
 transition: fade-out
 layout: cover
-background: https://picsum.photos/id/1/1920/1080?grayscale&blur=3
+background: "https://picsum.photos/id/1/1920/1080?grayscale&blur=3"
 ---
+
 
 <div class="absolute top-8 left-0 right-0 text-center text-4xl font-bold">
   Introduction
 </div>
-  <ul class="absolute top-24 left-12 md:left-20 text-left text-2xl list-disc list-inside space-y-2">
-  <br>
+
+<div class="absolute top-28 left-20">
+  <ul class="text-left text-2xl list-disc list-inside space-y-3">
     <li>Secteur d'activité</li>
-  <li>Choix de l'entreprise :</li>
+    <li>Choix de l'entreprise :</li>
     <li class="font-serif font-light" style="list-style: none;">– Obtention du stage</li>
     <li class="font-serif font-light" style="list-style: none;">– Manière pour le trouver</li>
     <li class="font-serif font-light" style="list-style: none;">– Méthodes</li>
   </ul>
+</div>
 
 <!--
 Où le stage ?
@@ -87,7 +87,7 @@ Méthodes ?
 ---
 transition: fade-out
 layout: cover
-background: https://picsum.photos/id/1/1920/1080?grayscale&blur=2
+background: "https://picsum.photos/id/1/1920/1080?grayscale&blur=2"
 ---
 
 <div class="absolute top-8 left-0 right-0 text-center text-4xl font-bold">
@@ -122,21 +122,126 @@ enttreprise privée, salariés, historique
 ---
 transition: fade-out
 layout: cover
-background: https://picsum.photos/id/1/1920/1080?grayscale&blur=4
+background: "https://picsum.photos/id/1/1920/1080?grayscale&blur=4"
 ---
 
 <div class="absolute top-8 left-0 right-0 text-center text-4xl font-bold">
   Le métier d'ingénieur logiciel
 </div>
-<div class="absolute top-24 left-8 text-left text-2xl">
+<div class="absolute top-24 left-0 right-0 text-center text-2xl">
   1) Sa formation
 </div>
-<div class="absolute top-36 left-8 text-left text-2xl">
-  2) Sa journée de travail 
+
+<div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-end gap-8 w-full max-w-5xl px-8">
+  <div v-click="1" class="flex-1 flex flex-col items-center justify-end min-w-0 slide-fade">
+    <div class="w-full h-44 flex items-center justify-center shrink-0">
+      <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=400" alt="Bac S" class="object-contain max-h-44 max-w-full rounded" />
+    </div>
+    <p class="mt-3 text-xl font-medium text-center min-h-[2rem] flex items-center justify-center">Bac S</p>
+  </div>
+  <div v-click="2" class="flex-1 flex flex-col items-center justify-end min-w-0 slide-fade">
+    <div class="w-full h-44 flex items-center justify-center shrink-0">
+      <img src="https://www.itii-pdl.com/wp-content/uploads/2024/11/Polytech_HORIZ_angers.webp" alt="École d'ingénieur" class="object-contain max-h-44 max-w-full" />
+    </div>
+    <p class="mt-3 text-xl font-medium text-center min-h-[2rem] flex items-center justify-center">École d'ingénieur</p>
+  </div>
+  <div v-click="3" class="flex-1 flex flex-col items-center justify-end min-w-0 slide-fade">
+    <div class="w-full h-44 flex items-center justify-center shrink-0">
+      <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=400" alt="Bac +5" class="object-contain max-h-44 max-w-full rounded" />
+    </div>
+    <p class="mt-3 text-xl font-medium text-center min-h-[2rem] flex items-center justify-center">Titre d'ingénieur = Bac +5</p>
+  </div>
 </div>
-<div class="absolute top-48 left-8 text-left text-2xl">
-  3) Avantages et Inconvénients
+
+<style>
+.slidev-vclick-target {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+/* Caché tant que pas encore révélé ; une fois visible, reste visible */
+.slidev-vclick-target.slidev-vclick-hidden {
+  opacity: 0;
+  transform: scale(0.92);
+  pointer-events: none;
+}
+</style>
+
+---
+transition: fade-out
+layout: cover
+background: "https://picsum.photos/id/1/1920/1080?grayscale&blur=4"
+---
+
+<div class="absolute top-8 left-0 right-0 text-center text-4xl font-bold">
+  Le métier d'ingénieur logiciel
 </div>
+<div class="absolute top-24 left-0 right-0 text-center text-2xl">
+  2) Sa journée de travail
+</div>
+
+<div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center gap-8 w-full max-w-5xl px-8">
+  <div v-click="1" class="flex-1 flex flex-col items-center justify-center min-w-0 slide-fade">
+    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=400" alt="Développement logiciel" class="object-contain max-h-44 w-full rounded" />
+    <p class="mt-3 text-xl font-medium text-center">Développement logiciel</p>
+  </div>
+  <div v-click="2" class="flex-1 flex flex-col items-center justify-center min-w-0 slide-fade">
+    <img src="https://images.unsplash.com/photo-1769740333462-9a63bfa914bc?auto=format&fit=crop&w=400" alt="Réunion d'équipe" class="object-contain max-h-44 w-full rounded" />
+    <p class="mt-3 text-xl font-medium text-center">Réunions</p>
+  </div>
+  <div v-click="3" class="flex-1 flex flex-col items-center justify-center min-w-0 slide-fade">
+    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400" alt="Ordinateur avec du code" class="object-contain max-h-44 w-full rounded" />
+    <p class="mt-3 text-xl font-medium text-center">Utilisation d'outils (Cursor,Git...)</p>
+  </div>
+</div>
+
+<style>
+.slidev-vclick-target {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.slidev-vclick-target.slidev-vclick-hidden {
+  opacity: 0;
+  transform: scale(0.92);
+  pointer-events: none;
+}
+</style>
+
+---
+transition: fade-out
+layout: cover
+background: "https://picsum.photos/id/1/1920/1080?grayscale&blur=4"
+---
+
+<div class="absolute top-8 left-0 right-0 text-center text-4xl font-bold">
+  Le métier d'ingénieur logiciel
+</div>
+<div class="absolute top-24 left-0 right-0 text-center text-2xl">
+  3) ✅ Avantages et Inconvénients ❌
+</div>
+
+<div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center gap-8 w-full max-w-5xl px-8">
+  <div v-click="1" class="flex-1 flex flex-col items-center justify-center min-w-0 slide-fade">
+    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=400" alt="Télétravail" class="object-contain max-h-44 w-full rounded" />
+    <p class="mt-3 text-xl font-medium text-center">✅ Bonne rémunération</p>
+  </div>
+  <div v-click="2" class="flex-1 flex flex-col items-center justify-center min-w-0 slide-fade">
+    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=400" alt="Bonne rémunération" class="object-contain max-h-44 w-full rounded" />
+    <p class="mt-3 text-xl font-medium text-center">✅ travail collectif</p>
+  </div>
+  <div v-click="3" class="flex-1 flex flex-col items-center justify-center min-w-0 slide-fade">
+    <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8SUF8ZW58MHx8MHx8fDA%3D" alt="L'IA" class="object-contain max-h-44 w-full rounded" />
+    <p class="mt-3 text-xl font-medium text-center">❌ L'intelligence artificielle (Vigilance)</p>
+  </div>
+</div>
+
+<style>
+.slidev-vclick-target {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.slidev-vclick-target.slidev-vclick-hidden {
+  opacity: 0;
+  transform: scale(0.92);
+  pointer-events: none;
+}
+</style>
 
 <!--
 Sa formation: 
@@ -156,22 +261,53 @@ Conditions travail ?
 ---
 transition: fade-out
 layout: cover
-background: https://picsum.photos/id/1/1920/1080?grayscale&blur=3
+background: "https://picsum.photos/id/1/1920/1080?grayscale&blur=3"
 ---
 
 <div class="absolute top-8 left-0 right-0 text-center text-4xl font-bold z-10">
   Mon expérience
 </div>
-<ul class="absolute top-35 left-12 md:left-20 text-left text-xl list-disc list-inside space-y-2">
-  <li>1) Ma journée de travail</li>
-  <li>2) Mes impressions</li>
-</ul>
-<div class="absolute bottom-8 right-8 z-10">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Logo_Polytech_Angers.svg/500px-Logo_Polytech_Angers.svg.png" alt="Logo Polytech Angers" class="object-contain max-h-32" />
+<div class="absolute top-24 left-0 right-0 text-center text-2xl z-10">
+  1) Ma journée de travail
 </div>
-<div class="absolute top-8 left-8 z-10">
-  <img src="https://coworking-colibri.fr/wp-content/uploads/2025/03/logo_colibri_couleur.svg" alt="Coworking Colibri" class="object-contain max-h-52" />
+
+<div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center gap-6 w-full max-w-6xl px-8">
+  <div v-click="1" class="flex-1 flex flex-col items-center justify-center min-w-0 slide-fade">
+    <div class="w-full aspect-square max-h-44 rounded bg-white/10 flex items-center justify-center shrink-0 overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1662974770404-468fd9660389?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VGNoYXR8ZW58MHx8MHx8fDA%3D" alt="Chat en ligne" class="w-full h-full object-cover" />
+    </div>
+    <p class="mt-3 text-xl font-medium text-center">Mon projet</p>
+  </div>
+  <div v-click="2" class="flex-1 flex flex-col items-center justify-center min-w-0 slide-fade">
+    <div class="w-full aspect-square max-h-44 rounded bg-white/10 flex items-center justify-center shrink-0 overflow-hidden">
+      <img src="https://plus.unsplash.com/premium_photo-1706559780094-648dbe2b2bd0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8SG9yYWlyZXxlbnwwfHwwfHx8MA%3D%3D" alt="Emploi du temps" class="w-full h-full object-cover" />
+    </div>
+    <p class="mt-3 text-xl font-medium text-center">Emploi tu temps</p>
+  </div>
+  <div v-click="3" class="flex-1 flex flex-col items-center justify-center min-w-0 slide-fade">
+    <div class="w-full aspect-square max-h-44 rounded bg-white/10 flex items-center justify-center shrink-0 overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8TWFjJTIwYm9va3xlbnwwfHwwfHx8MA%3D%3D" alt="Mon outil" class="w-full h-full object-cover object-[center_35%]" />
+    </div>
+    <p class="mt-3 text-xl font-medium text-center">Mon outil</p>
+  </div>
+  <div v-click="4" class="flex-1 flex flex-col items-center justify-center min-w-0 slide-fade">
+    <div class="w-full aspect-square max-h-44 rounded bg-white/10 flex items-center justify-center shrink-0 overflow-hidden">
+      <img src="https://media.licdn.com/dms/image/v2/D5622AQEkkcSKzBuiyg/feedshare-shrink_800/B56ZS5UFJLHQAg-/0/1738275837216?e=2147483647&v=beta&t=9Asuc2HRUbANKJH6jpKvBZSd84jDmG8uPlzanNprux8" alt="Espace de coworking" class="w-full h-full object-cover" />
+    </div>
+    <p class="mt-3 text-xl font-medium text-center">Espace de coworking</p>
+  </div>
 </div>
+
+<style>
+.slidev-vclick-target {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.slidev-vclick-target.slidev-vclick-hidden {
+  opacity: 0;
+  transform: scale(0.92);
+  pointer-events: none;
+}
+</style>
 
 <!--
 Ma journée type
@@ -192,7 +328,51 @@ Plus apprécié ?
 ---
 transition: fade-out
 layout: cover
-background: https://picsum.photos/id/1/1920/1080?grayscale&blur=2
+background: "https://picsum.photos/id/1/1920/1080?grayscale&blur=3"
+---
+
+<div class="absolute top-8 left-0 right-0 text-center text-4xl font-bold z-10">
+  Mon expérience
+</div>
+<div class="absolute top-24 left-0 right-0 text-center text-2xl z-10">
+  2) Mes impressions
+</div>
+
+<div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center gap-6 w-full max-w-6xl px-8">
+  <div class="flex-1 flex flex-col items-center justify-center min-w-0">
+    <div class="w-full aspect-square max-h-44 rounded bg-white/10 flex items-center justify-center shrink-0 overflow-hidden">
+      <!-- Ton image 1 -->
+    </div>
+    <p class="mt-3 text-xl font-medium text-center"></p>
+  </div>
+  <div class="flex-1 flex flex-col items-center justify-center min-w-0">
+    <div class="w-full aspect-square max-h-44 rounded bg-white/10 flex items-center justify-center shrink-0 overflow-hidden">
+      <!-- Ton image 2 -->
+    </div>
+    <p class="mt-3 text-xl font-medium text-center"></p>
+  </div>
+  <div class="flex-1 flex flex-col items-center justify-center min-w-0">
+    <div class="w-full aspect-square max-h-44 rounded bg-white/10 flex items-center justify-center shrink-0 overflow-hidden">
+      <!-- Ton image 3 -->
+    </div>
+    <p class="mt-3 text-xl font-medium text-center"></p>
+  </div>
+  <div class="flex-1 flex flex-col items-center justify-center min-w-0">
+    <div class="w-full aspect-square max-h-44 rounded bg-white/10 flex items-center justify-center shrink-0 overflow-hidden">
+      <!-- Ton image 4 -->
+    </div>
+    <p class="mt-3 text-xl font-medium text-center"></p>
+  </div>
+</div>
+
+<!--
+Mes impressions
+-->
+
+---
+transition: fade-out
+layout: cover
+background: "https://picsum.photos/id/1/1920/1080?grayscale&blur=2"
 ---
 
 <div class="absolute top-8 left-0 right-0 text-center text-4xl font-bold">
