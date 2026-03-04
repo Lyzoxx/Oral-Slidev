@@ -72,7 +72,7 @@ background: "https://picsum.photos/id/1/1920/1080?grayscale&blur=3"
     <li>Choix de l'entreprise :</li>
     <li class="font-serif font-light" style="list-style: none;">– Obtention du stage</li>
     <li class="font-serif font-light" style="list-style: none;">– Manière pour le trouver</li>
-    <li class="font-serif font-light" style="list-style: none;">– Méthodes</li>
+    <li class="font-serif font-light" style="list-style: none;">– Méthodes ✉️</li>
   </ul>
 </div>
 
@@ -94,21 +94,16 @@ background: "https://picsum.photos/id/1/1920/1080?grayscale&blur=2"
   Présentation de l'entreprise
 </div>
 
-<!-- Gauche : Crafting Tech + flèche à droite + Brendan Gouin -->
-<div class="absolute left-12 top-1/2 -translate-y-1/2 z-10 flex items-center gap-4">
+<div class="absolute left-[42%] top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 flex items-center gap-8">
   <div class="flex flex-col items-center">
-    <div class="rounded overflow-hidden" style="background: #5a5a5a;">
-      <img src="https://craftingtech.fr/assets/logo-ClPFe5ny.png" alt="Logo Crafting Tech" class="object-contain max-h-28 w-auto block" style="mix-blend-mode: multiply;" />
-    </div>
+    <img src="https://craftingtech.fr/assets/logo-ClPFe5ny.png" alt="Logo Crafting Tech" class="object-contain max-h-40 w-auto block" />
     <p class="mt-2 text-xl font-medium">Brendan Gouin (tuteur)</p>
   </div>
-  <span class="text-8xl text-white/90 shrink-0">→</span>
-</div>
-
-<!-- Droite : LePlein + Son client (plus proche de la flèche) -->
-<div class="absolute right-[28%] top-1/2 -translate-y-1/2 z-10 flex flex-col items-center">
-  <img src="data:image/jpeg;base64,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" alt="Logo LePlein" class="object-contain max-h-40" />
-  <p class="mt-2 text-xl font-medium">Son client</p>
+  <span class="text-8xl text-white/90 shrink-0 -mt-12">→</span>
+  <div class="flex flex-col items-center">
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAKMArgMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABwMEBQYIAgH/xABHEAABAwMBBQIGDQkJAAAAAAAAAQIDBAURBgcSEyExQVEUIjKBkbEIFRdCUlRhYnR1lNHTNDVxc5Oys8HxIyYzNjdTcpKh/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwUE/8QAJREBAAEEAQMDBQAAAAAAAAAAAAECAxESBBMhMUFRYQUiJDJx/9oADAMBAAIRAxEAPwCJwAd3ngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAe3wysejHxPa9ejXNVFXzF5YKNLjfrbRObvNqauKJyfNc9EX/xVJQvlquVz23Uk9TQVbKBtZC2CofC5I3cKPiYRyphfGa8kzhumjMZRNJS1MbFfJTzManVzo1REPMUM02eDFJJjruNV2PQStteu1W+hqKZtVfm089bw309ZQtipla3Lk3H7iOd4zWqnjLlMqVPY7/luoP1dP65SbdstdONtcooWiq0TK0lR+yd9xboqL0XJ0NrLagzSmpvaqptLqinSNkj5458PRHdzFbhenwkKm17TFuuel6268COK4UUfGZUNbhz2p1Y7vTGcZ6L58zb3am1HfEufEpKlzEelNMrFTKOSNcY78lE6e0v/pdbfqZn8I5gZ5KfoLE5YuUaqsVPPMirDDLIiclVjFXHoPfgVZ8UqP2TvuJv9j5/lq6fT1/hsL/UO0G/2q9VdBSaIuFbBA/dZUx8XdlTCLlMRKnb3qTbvhuLUTGcuf3U1Q17WOp5mud5LVjVFd+jvD6aoj3eJBKzeXCbzFTK9yEsR6qr9TbTdJpcrHPaJaV8ytinV289r2Lzw5jVRPEVP6G0bYPK0p9eQfzLsdKPdz/JS1ETFfJTzManVzo1REPDGPkejI2Oe5ejWplVOvrhTUtdRy0NcxkkFU1Ynxv9+iouU9GfQQTp/TNRpPbJabdMrnwrJI+mmVP8WNYpMedOi/KncqEirJNnEwjmWCaFEWaGSNF6b7FTPpKZN3shfzZZvpEn7qEY6K0rVaru3gsKrFTRYdU1GM8Nvcnzl54869hK7tNuia65xEMTbnfWGARFVFVEXCdV7j4TXtNt9PY9BU9lstC7hT1TGq2NiudhqK5XOXqqqrWple8hQ4cPlRyrc3IjEZW7b6c4AAfW5AAAzWjrRX3u/wBPR2qqWkqUR0iVCPc1YkROqK3nns5d5JL9nmsJHRuk1vVvdG7ejV1TOqsdhUynjclwqplOxVIw03f67TVz9sLbwVm4bo1SZm81WrjPJFRexO02z3X9T/7Fq+zyfiHmcynnzc/HmIp+X02arUU/d5Y3aDar9ZKmlo73fKi6RyMWWLi1MkiNVOS+K9Vwvym4ex3/AC2//qqf1ykcan1HcNT3Blbc+CkjIkia2FitajUVV6Kq9qr2l1o/WN00hJVyWmOke6qRjZPCY3Owjd7GMOT4Sn2WabvSiLv7erO9MXMx4TNrDVejLFqZEvVm8IusTGSNqW0cb3InvcOVc8jQdoW1N+pbc+1WmklpKGVUWaSZycSREXO7hFVGplEzzXPTl26ZqfUFbqe6uudybA2odG2NUgYrW4TpyVV9ZiTrFKV3ZntDp/SbHS7MrXHG1XPdZ42tanVVWJCAm6D1Zup/d+u6fAT7zM2naxqS02ukttJBa1gpIWwxrJA9XK1qYTKo9OfLuLv3adV/F7R9nk/EJETDdVVurzLc9gUUkFhvEMzFZLHcnMexerXJGxFRfOXl/wBU66or1WU1r0o2roo5N2GdWu/tG4Tn178kU6e2jXzTyV6W+Kgd4dVPqpeNC92Hu67uHphOXymX92nVfxe0fZ5PxCazlYuU4xlkYa2/XPa1pqv1Hafa2ZzXQxMRFRHta2RVXmq9r/Ubdth66U+vIP5kU3PaNfLnfLXeKmKgSqtiyLAkcL0Yu+iIu8ivVV6diofNRbRb5qHwD2wioG+A1TaqHgwvbl7em9l65T0F1lOpTET3TFtjqqih0YtXRyuhqIKyB8cjerXI7kpd6WuFs11bLRfnRMbX2+Vyq1q84JVYrXt/4qjs/wDVewhTU+0i+6ntL7Zcore2nc9r1WCF7XZauU5q9fUY3SWrrtpGqnntLoV47EZLFOxXMdheS4RUXKc8c+1Sa9jqxt8JQ9kL+bLN9Ik/dQ1zZJqt9FVUum4LZG9ayoe+Sq4yo7yM+TjnhG95rWr9c3fV0FNDdo6Jjad6vZ4NE5q5VMLnLlMXp691enroy429IVnY1zUSZiubhUwvJFQ4crjxfsVW5jM+n99Ei7EXNo8J+11q2m0pa1lVWyV0yK2lgz5S/CX5qdvo7TnKaWSeaSaZyvkkcr3uX3zlXKr6S4utzrbxXSV1yqHz1MnV7uxOxEToifIhaHL6dwKeHbx5qnzKX73Un4AAeg4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//2Q==" alt="Logo LePlein" class="object-contain max-h-40" />
+    <p class="mt-2 text-xl font-medium">Son client</p>
+  </div>
 </div>
 
 <!--
@@ -339,31 +334,42 @@ background: "https://picsum.photos/id/1/1920/1080?grayscale&blur=3"
 </div>
 
 <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center gap-6 w-full max-w-6xl px-8">
-  <div class="flex-1 flex flex-col items-center justify-center min-w-0">
+  <div v-click="1" class="flex-1 flex flex-col items-center justify-center min-w-0 slide-fade">
     <div class="w-full aspect-square max-h-44 rounded bg-white/10 flex items-center justify-center shrink-0 overflow-hidden">
-      <!-- Ton image 1 -->
+      <img src="https://images.unsplash.com/photo-1501139083538-0139583c060f?auto=format&fit=crop&w=400" alt="Sablier" class="w-full h-full object-cover" />
     </div>
-    <p class="mt-3 text-xl font-medium text-center"></p>
+    <p class="mt-3 text-xl font-medium text-center">Durée du stage</p>
   </div>
-  <div class="flex-1 flex flex-col items-center justify-center min-w-0">
-    <div class="w-full aspect-square max-h-44 rounded bg-white/10 flex items-center justify-center shrink-0 overflow-hidden">
-      <!-- Ton image 2 -->
+  <div v-click="2" class="flex-1 flex flex-col items-center justify-center min-w-0 slide-fade">
+    <div class="w-full aspect-square max-h-44 rounded flex items-center justify-center shrink-0 overflow-hidden">
+      <img src="https://www.itii-pdl.com/wp-content/uploads/2024/11/Polytech_HORIZ_angers.webp" alt="Polytech Angers" class="w-full h-full object-contain" />
     </div>
-    <p class="mt-3 text-xl font-medium text-center"></p>
+    <p class="mt-3 text-xl font-medium text-center">Polytech Angers</p>
   </div>
-  <div class="flex-1 flex flex-col items-center justify-center min-w-0">
+  <div v-click="3" class="flex-1 flex flex-col items-center justify-center min-w-0 slide-fade">
     <div class="w-full aspect-square max-h-44 rounded bg-white/10 flex items-center justify-center shrink-0 overflow-hidden">
-      <!-- Ton image 3 -->
+      <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=900&auto=format&fit=crop&q=60" alt="Cours" class="w-full h-full object-cover" />
     </div>
-    <p class="mt-3 text-xl font-medium text-center"></p>
+    <p class="mt-3 text-xl font-medium text-center">NSI et Maths</p>
   </div>
-  <div class="flex-1 flex flex-col items-center justify-center min-w-0">
+  <div v-click="4" class="flex-1 flex flex-col items-center justify-center min-w-0 slide-fade">
     <div class="w-full aspect-square max-h-44 rounded bg-white/10 flex items-center justify-center shrink-0 overflow-hidden">
-      <!-- Ton image 4 -->
+      <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=900&auto=format&fit=crop&q=60" alt="Vie professionnelle" class="w-full h-full object-cover" />
     </div>
-    <p class="mt-3 text-xl font-medium text-center"></p>
+    <p class="mt-3 text-xl font-medium text-center">Vie Professionnelle</p>
   </div>
 </div>
+
+<style>
+.slidev-vclick-target {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.slidev-vclick-target.slidev-vclick-hidden {
+  opacity: 0;
+  transform: scale(0.92);
+  pointer-events: none;
+}
+</style>
 
 <!--
 Mes impressions
