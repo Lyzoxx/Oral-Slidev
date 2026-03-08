@@ -385,6 +385,31 @@ background: "https://picsum.photos/id/1/1920/1080?grayscale&blur=2"
   Conclusion
 </div>
 
+<div v-click="1" class="absolute left-[28%] top-[42%] -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center slide-fade">
+  <p class="text-xl font-medium mb-4">Projet de chat en ligne</p>
+  <img src="/qr-code.png" alt="QR Code" class="w-48 h-48 object-contain" />
+</div>
+
+<div v-click="1" class="absolute right-[28%] top-[42%] translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center slide-fade">
+  <p class="text-xl font-medium mb-4">Mon Oral de stage</p>
+  <img src="/qr-code-oral.png" alt="QR Code Oral" class="w-48 h-48 object-contain" />
+</div>
+
+<div v-click="2" class="absolute bottom-16 left-0 right-0 text-center text-5xl slide-fade">
+  Merci de votre écoute
+</div>
+
+<style>
+.slidev-vclick-target {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.slidev-vclick-target.slidev-vclick-hidden {
+  opacity: 0;
+  transform: scale(0.92);
+  pointer-events: none;
+}
+</style>
+
 <!--
 vision monde du travail ?
 
